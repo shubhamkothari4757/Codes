@@ -1,4 +1,8 @@
-Scanner sc= new Scanner(System.in);
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
 	    
 		System.out.println("Enter the string");
 		String input = sc.next();
@@ -22,3 +26,5 @@ Scanner sc= new Scanner(System.in);
 		}else {
 			System.out.println("string is palindrom");
 		}
+	}
+}
